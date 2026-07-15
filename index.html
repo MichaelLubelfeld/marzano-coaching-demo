@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTEM AI Coaching Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FTEM AI Coaching Assistant</h1>
+        <p>Your AI-powered companion for the Florida Marzano Focused Teacher Evaluation Model.</p>
+    </header>
+
+    <main>
+        <section class="launch-section">
+            <h2>Try This in Copilot</h2>
+            <p>Select a coaching action below. Each button opens Copilot with a pre-filled FTEM prompt.</p>
+
+            <div class="prompt-card">
+                <h3>Generate FTEM Coaching Artifact</h3>
+                <button onclick="openCopilot365('artifact')">Open in Microsoft 365 Copilot</button>
+                <button onclick="openCopilotBing('artifact')">Open in Bing Copilot</button>
+                <button onclick="copyPrompt('artifact')">Copy Prompt</button>
+            </div>
+
+            <div class="prompt-card">
+                <h3>Map Evidence to FTEM Elements</h3>
+                <button onclick="openCopilot365('elements')">Open in Microsoft 365 Copilot</button>
+                <button onclick="openCopilotBing('elements')">Open in Bing Copilot</button>
+                <button onclick="copyPrompt('elements')">Copy Prompt</button>
+            </div>
+
+            <div class="prompt-card">
+                <h3>Create FTEM Coaching Script</h3>
+                <button onclick="openCopilot365('script')">Open in Microsoft 365 Copilot</button>
+                <button onclick="openCopilotBing('script')">Open in Bing Copilot</button>
+                <button onclick="copyPrompt('script')">Copy Prompt</button>
+            </div>
+        </section>
+
+        <section class="toolkit-section">
+            <h2>FTEM Coaching Toolkit</h2>
+            <p>A complete reference for the Florida Marzano Focused Teacher Evaluation Model.</p>
+
+            <ul class="toolkit-list">
+                <li>✔ 23 FTEM Elements</li>
+                <li>✔ 4 Domains</li>
+                <li>✔ Focus Statements</li>
+                <li>✔ Desired Effects</li>
+                <li>✔ FTEM Rubric Scale</li>
+                <li>✔ Coaching Tip Templates</li>
+                <li>✔ Evidence Collection Prompts</li>
+                <li>✔ Post-Observation Conversation Starters</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>FTEM AI Coaching Assistant • Powered by Microsoft Copilot</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
