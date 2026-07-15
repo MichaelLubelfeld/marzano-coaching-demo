@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.launch-section, .toolkit-section {
+    margin-bottom: 3rem;
+}
+
+.prompt-card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.prompt-card h3 {
+    margin-top: 0;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0055a5;
+}
+
+.toolkit-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.toolkit-list li {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
